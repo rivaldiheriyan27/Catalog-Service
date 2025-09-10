@@ -1,4 +1,4 @@
-const { where } = require("sequelize");
+const { Op } = require("sequelize");
 const { Product } = require("../models");
 const { v4: uuidv4 } = require("uuid");
 
@@ -34,12 +34,22 @@ class ProductControllers {
       const page = parseInt(req.query.page) || 1;
       const offset = (page - 1) * limit;
 
+      let whereClause = {
+        deletedAt: null,
+      };
+
+      if (req.query.name && req.query.name !== "null") {
+        whereClause.Name = { [Op.iLike]: `%${req.query.name}%` };
+      }
+
+      if (req.query.category && req.query.category !== "null") {
+        whereClause.Category = { [Op.iLike]: `%${req.query.category}%` };
+      }
+
       const products = await Product.findAndCountAll({
         limit,
         offset,
-        where: {
-          deletedAt: null,
-        },
+        where: whereClause,
       });
 
       res.status(200).json({
@@ -55,8 +65,11 @@ class ProductControllers {
 
   static async getProductById(req, res, next) {
     try {
-      const { id } = req.params;
-      const product = await Product.findByPk(id);
+      const { ProdictId } = req.params;
+
+      const product = await Product.findOne({
+        where: { ProductId: ProdictId, deletedAt: null },
+      });
 
       if (!product) {
         return res.status(404).json({ message: "Product not found" });

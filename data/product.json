@@ -1,0 +1,182 @@
+[
+  {
+    "Name": "Kursi Kayu",
+    "Price": 600000,
+    "Category": "Furnitur",
+    "Description": "Kursi kayu sederhana dengan desain klasik dan nyaman digunakan."
+  },
+  {
+    "Name": "Kursi Kayu Jati",
+    "Price": 10000000,
+    "Category": "Furnitur",
+    "Description": "Kursi kayu jati berkualitas tinggi, tahan lama, dan elegan."
+  },
+  {
+    "Name": "Kursi Kayu Mahoni",
+    "Price": 11200000,
+    "Category": "Furnitur",
+    "Description": "Kursi berbahan kayu mahoni dengan sentuhan ukiran khas."
+  },
+  {
+    "Name": "Kursi Kayu Apel",
+    "Price": 10000000,
+    "Category": "Furnitur",
+    "Description": "Kursi unik dari kayu apel dengan desain minimalis modern."
+  },
+  {
+    "Name": "Meja Belajar",
+    "Price": 1500000,
+    "Category": "Furnitur",
+    "Description": "Meja belajar dengan laci penyimpanan dan desain ergonomis."
+  },
+  {
+    "Name": "Meja Kopi",
+    "Price": 800000,
+    "Category": "Furnitur",
+    "Description": "Meja kopi elegan berbahan kayu solid dengan finishing halus."
+  },
+  {
+    "Name": "Sofa Minimalis",
+    "Price": 3500000,
+    "Category": "Furnitur",
+    "Description": "Sofa nyaman dengan busa tebal dan cover kain premium."
+  },
+  {
+    "Name": "Lemari Pakaian 2 Pintu",
+    "Price": 2500000,
+    "Category": "Furnitur",
+    "Description": "Lemari pakaian kayu dengan 2 pintu geser hemat ruang."
+  },
+  {
+    "Name": "Laptop Gaming",
+    "Price": 15000000,
+    "Category": "Elektronik",
+    "Description": "Laptop gaming dengan spesifikasi tinggi untuk performa maksimal."
+  },
+  {
+    "Name": "Smartphone Android",
+    "Price": 4500000,
+    "Category": "Elektronik",
+    "Description": "Smartphone Android dengan kamera 108MP dan layar AMOLED."
+  },
+  {
+    "Name": "Smart TV 55 Inch",
+    "Price": 7000000,
+    "Category": "Elektronik",
+    "Description": "Smart TV dengan resolusi 4K UHD dan konektivitas WiFi."
+  },
+  {
+    "Name": "Kulkas 2 Pintu",
+    "Price": 3800000,
+    "Category": "Elektronik",
+    "Description": "Kulkas hemat energi dengan kapasitas besar dan freezer terpisah."
+  },
+  {
+    "Name": "Blender Serbaguna",
+    "Price": 450000,
+    "Category": "Dapur",
+    "Description": "Blender serbaguna dengan pisau stainless steel tajam."
+  },
+  {
+    "Name": "Kompor Gas 2 Tungku",
+    "Price": 650000,
+    "Category": "Dapur",
+    "Description": "Kompor gas 2 tungku dengan api biru hemat energi."
+  },
+  {
+    "Name": "Rice Cooker",
+    "Price": 500000,
+    "Category": "Dapur",
+    "Description": "Rice cooker multifungsi untuk memasak, mengukus, dan menghangatkan."
+  },
+  {
+    "Name": "Microwave Oven",
+    "Price": 1800000,
+    "Category": "Dapur",
+    "Description": "Microwave oven dengan 5 mode pemanasan cepat."
+  },
+  {
+    "Name": "Sepatu Sneakers",
+    "Price": 750000,
+    "Category": "Fashion",
+    "Description": "Sepatu sneakers trendy dengan sol karet yang nyaman."
+  },
+  {
+    "Name": "Jaket Kulit",
+    "Price": 1200000,
+    "Category": "Fashion",
+    "Description": "Jaket kulit asli dengan desain modern dan tahan lama."
+  },
+  {
+    "Name": "Kemeja Batik",
+    "Price": 350000,
+    "Category": "Fashion",
+    "Description": "Kemeja batik lengan panjang cocok untuk acara formal."
+  },
+  {
+    "Name": "Tas Ransel",
+    "Price": 500000,
+    "Category": "Fashion",
+    "Description": "Tas ransel multifungsi dengan banyak kompartemen."
+  },
+  {
+    "Name": "Bola Sepak",
+    "Price": 250000,
+    "Category": "Olahraga",
+    "Description": "Bola sepak standar internasional dengan bahan kulit sintetis berkualitas."
+  },
+  {
+    "Name": "Raket Badminton",
+    "Price": 400000,
+    "Category": "Olahraga",
+    "Description": "Raket badminton ringan dengan frame karbon yang kuat."
+  },
+  {
+    "Name": "Sepeda Gunung",
+    "Price": 3500000,
+    "Category": "Olahraga",
+    "Description": "Sepeda gunung dengan suspensi ganda cocok untuk jalur ekstrim."
+  },
+  {
+    "Name": "Dumbbell 10 Kg",
+    "Price": 300000,
+    "Category": "Olahraga",
+    "Description": "Dumbbell besi 10 kg untuk latihan kekuatan otot."
+  },
+  {
+    "Name": "Boneka Teddy Bear",
+    "Price": 200000,
+    "Category": "Mainan",
+    "Description": "Boneka teddy bear ukuran besar, lembut, dan menggemaskan."
+  },
+  {
+    "Name": "Puzzle 1000 Pieces",
+    "Price": 150000,
+    "Category": "Mainan",
+    "Description": "Puzzle edukatif dengan 1000 keping untuk melatih konsentrasi."
+  },
+  {
+    "Name": "Obat Vitamin C",
+    "Price": 75000,
+    "Category": "Kesehatan",
+    "Description": "Suplemen Vitamin C untuk menjaga daya tahan tubuh."
+  },
+  {
+    "Name": "Masker Medis 50 pcs",
+    "Price": 50000,
+    "Category": "Kesehatan",
+    "Description": "Masker medis sekali pakai berisi 50 pcs dengan 3 lapisan filter."
+  },
+  {
+    "Name": "Buku Pemrograman Dart",
+    "Price": 180000,
+    "Category": "Buku",
+    "Description": "Buku lengkap tentang pemrograman Dart untuk pemula hingga mahir."
+  },
+  {
+    "Name": "Buku Novel Fiksi",
+    "Price": 120000,
+    "Category": "Buku",
+    "Description": "Novel fiksi dengan cerita menarik dan penuh imajinasi."
+  }
+]
